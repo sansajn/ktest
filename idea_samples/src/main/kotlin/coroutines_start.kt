@@ -1,4 +1,4 @@
-// starting coroutines sample (compare with 
+// starting coroutines sample (compare with `thread_executors.kt` sample)
 import kotlinx.coroutines.*
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
