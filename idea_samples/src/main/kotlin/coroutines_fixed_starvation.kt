@@ -40,7 +40,7 @@ object CoroutineFactoryFixed {
 		latch.countDown()
 	}
 
-	fun longCoroutine(index: Int) = GlobalScope.async {
+	fun longCoroutine(index: Int) = GlobalScope.launch {
 		var uuid = UUID.randomUUID()
 		for (i in 1..100_000) {
 			val newUuid = UUID.randomUUID()
