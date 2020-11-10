@@ -1,7 +1,7 @@
+// coroutine parent job sample (with parent job we can cancel all child jobs at once)
 import kotlinx.coroutines.*
 import java.util.*
 
-// coroutine parent job sample (with parent job we can cancel all child jobs at once)
 fun main() {
 	val parentJob = Job()
 
