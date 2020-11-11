@@ -1,4 +1,4 @@
-// produce function sample
+// producer select function sample
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.*
 import kotlinx.coroutines.selects.select
