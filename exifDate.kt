@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
 	val exifDateTimeOriginal = "2023:04:02 17:38:16"  // local time
 	val exifOffsetTimeOriginal = "+02:00"
 
-	// parde date-time
+	// parse date-time
 	val exifDateTimeFmt = DateTimeFormatter.ofPattern("yyyy:MM:dd HH:mm:ss")
 	val takenAt = LocalDateTime.parse(exifDateTimeOriginal, exifDateTimeFmt)
 	println(takenAt)
